@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    overflow: auto!important;
+}
+
+.pad-y-lg {
+    padding: 5rem 0;
+}
+
+.text-white-75 {
+    color: rgba(255, 255, 255, 0.75) !important;
+}
+
+.navbar li a:hover {
+    color: #f4623a;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    color: #f4623a;
+}
+
+.banner {
+    padding-top: 10rem;
+    padding-bottom: 5.5rem;
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url(assets/bg-masthead.jpg) no-repeat center center / cover;
+    background-attachment: scroll;
+}
+
+.banner h1 {
+    font-size: 3.5rem;
+}
+
+.divider {
+    height: 0.2rem;
+    max-width: 3.25rem;
+    margin: 1.5rem auto;
+    background-color: #f4623a;
+    opacity: 1;
+}
+
+.div-wh {
+    background-color: #fff;
+}
+
+.btn-xl {
+    padding: 1.25rem 2rem;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10rem;
+}
+
+.btn-theme,
+.btn-theme:link,
+.btn-theme:visited {
+    background-color: #fff;
+    color: #000;
+}
+
+.btn-theme:hover {
+    background-color: #d3d4d5;
+    color: #000;
+}
+
+.btn-theme:active {
+    background-color: #aaaaaa !important;
+    color: #000 !important;
+}
+
+.btn-og,
+.btn-og:link,
+.btn-og:visited {
+    background-color: #f4623a;
+    color: #fff;
+}
+
+.btn-og:hover {
+    background-color: #cf5331;
+    color: #fff;
+}
+
+.btn-og:active {
+    background-color: #c24f30 !important;
+    color: #fff !important;
+}
+
+.bg-orange {
+    background-color: #f4623a;
+}
+
+.services i {
+    color: #f4623a;
+    font-size: 2.5rem;
+}
+
+.sp-font {
+    font-size: 18px;
+    padding: 0 0.5rem;
+}
+
+#portfolio .container-fluid .box {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#portfolio .box:hover .box-caption {
+    position: absolute;
+    background-color: rgba(244, 98, 58, 0.9);
+    transition: all 0.25s ease-in-out;
+}
+
+#portfolio .box .box-caption {
+    position: fixed;
+}
+
+#floatingTextarea {
+    height: 10rem;
+}
+
+.form-floating label {
+    opacity: 85%;
+    font-size: 18px;
+}
+
+.number {
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.modal-content {
+    background-color: transparent !important;
+    border: 0px!important;
+}
+
+.modal-header {
+    background-color: transparent !important;
+    border: 0px!important;
+}
+
+.modal-header .btn-close {
+    font-size: 1.5rem!important;
+    box-sizing: border-box;
+}
